@@ -1,5 +1,5 @@
-# eccentric-wheel-drive
-Collection of tools used in the design of a 2019 oscillating drive mechanism project meant for striking a bouncing ball.
+# pongo
+Collection of tools used in the design of a 2019 oscillating drive mechanism project meant for striking a bouncing ball (i.e. pongo).
 
 Included modules:
 
