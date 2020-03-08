@@ -83,9 +83,9 @@ cplot = plt.contour(delta_o_mesh, delta_r_mesh, k_spring, levels=rate_levels, co
 plt.clabel(cplot, inline=True, fontsize=8)
 
 # set title and axis labels
-plt.title('Required K_spring [lbs/in] vs Release and Preload Spring Extensions')
-plt.xlabel('delta_o [mm]')
-plt.ylabel('delta_r [mm]')
+plt.title('Required K_spring [lbs/in] vs Spring Compression Deltas at Charge and Contact')
+plt.xlabel('Contact Delta [mm]')
+plt.ylabel('Charge Delta [mm]')
 
 # set aspect ratio
 ax.set_aspect(aspect='auto')
@@ -106,9 +106,9 @@ cplot = plt.contour(delta_o_mesh, delta_r_mesh, max_force, levels=force_levels, 
 plt.clabel(cplot, inline=True, fontsize=8)
 
 # set title and axis labels
-plt.title('Max Spring Force [lbs] vs Release and Preload Spring Extensions')
-plt.xlabel('delta_o [mm]')
-plt.ylabel('delta_r [mm]')
+plt.title('Max Spring Force [lbs] vs Spring Compression Deltas at Charge and Contact')
+plt.xlabel('Contact Delta [mm]')
+plt.ylabel('Charge Delta [mm]')
 
 # set aspect ratio
 ax.set_aspect(aspect='auto')
