@@ -17,3 +17,6 @@ Sprung paddle concepts -
 Helper functions -
 * kinetics.py - Includes helper functions for performing kinetics calculations
 * kinematics.py - Includes helper functions for performing kinematics calculations
+
+Included assets:
+* shortbounce.mp4 - Example of sprung paddle concept with BLDC driven cylindrical cam for paddle return action
