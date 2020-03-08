@@ -13,3 +13,7 @@ Sprung paddle concepts -
 * powerspring.py - Generates contour plots showing required spring rate and max force for given spring "charge" and "contact" deltas
   * "charge" delta = difference in spring length between the relaxed position and fully compressed position
   * "contact" delta = difference in length between the relaxed position and ball contact position
+
+Helper functions -
+* kinetics.py - Includes helper functions for performing kinetics calculations
+* kinematics.py - Includes helper functions for performing kinematics calculations
